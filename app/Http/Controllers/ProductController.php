@@ -37,6 +37,7 @@ class ProductController extends Controller
             "net_amount" => $product->price - $product->discount,
             "order_id" => $oid,
             "ulid" => $ulid,
+            
 
         ]);
 

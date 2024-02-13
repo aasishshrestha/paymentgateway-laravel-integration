@@ -13,7 +13,6 @@
         $url = env('KHALTI');
         // print_r($order_detail);
     @endphp
-
     <form action="epayment" method="post">
         @csrf
         {{-- <button type="submit">Pay With </button> --}}
